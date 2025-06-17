@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kapakana:wght@300..400&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to top, #F20544, #F25EBF);
+    padding: 20px;
+}
+
+div.logo > img {
+    width: 80px;
+    border-radius: 50%;
+}
+
+div.titulo > h1 {
+    color: white;
+    font-family: kapakana;
+    font-size: 3em;
+    text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.336);
+}
+
+main {
+    background-color: white;
+}
+
+footer {
+    background-color: #64254d;
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
+
+footer strong {
+    color: #F25EBF;
+}
+
